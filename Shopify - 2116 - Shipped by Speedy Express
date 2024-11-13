@@ -1,0 +1,2 @@
+select count(*) from shopify_orders
+where carrier_id = '484';
