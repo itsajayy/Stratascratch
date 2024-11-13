@@ -1,0 +1,2 @@
+select distinct(signup_id) from transactions
+where transaction_start_date >= '2020-04-01' AND transaction_start_date <='2020-05-31';
