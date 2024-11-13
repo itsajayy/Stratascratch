@@ -1,0 +1,5 @@
+Select distinct(dim_product.prod_sku_id), dim_product.market_name from dim_product
+left join fct_customer_sales
+on dim_product.prod_sku_id = fct_customer_sales.prod_sku_id
+where fct_customer_sales.prod_sku_id IS NULL
+order by prod_sku_id;
