@@ -1,1 +1,2 @@
-
+select distinct(worker_id) from worker_logins
+where login_timestamp >= '2021-12-13 00:01:00' and login_timestamp <= '2021-12-19 11:59:59';
