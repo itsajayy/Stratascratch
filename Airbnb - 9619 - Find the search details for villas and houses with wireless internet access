@@ -1,0 +1,2 @@
+SELECT * FROM airbnb_search_details
+WHERE property_type LIKE 'Villa' OR property_type LIKE 'House' and amenities LIKE 'Wireless Internet';
