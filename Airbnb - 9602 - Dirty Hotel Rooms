@@ -1,0 +1,2 @@
+select * from hotel_reviews
+where hotel_address like '%Netherlands' and negative_review like '%dirty%';
