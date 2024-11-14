@@ -1,0 +1,2 @@
+select * from random_id
+order by RIGHT(id,4) ASC;
