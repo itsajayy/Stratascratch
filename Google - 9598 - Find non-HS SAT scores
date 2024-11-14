@@ -1,0 +1,4 @@
+Select * from sat_scores
+where school not in
+(select school from sat_scores
+where school like '%HS');
